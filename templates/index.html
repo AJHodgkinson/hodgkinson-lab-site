@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="hero wrap">
+  <div class="hero-text">
+    <h1>Mitochondrial genomics &amp; human disease</h1>
+    <p class="hero-lede">{{ site.tagline }}</p>
+    <div class="hero-actions">
+      <a class="button button-primary" href="research.html">Explore the research</a>
+      <a class="button button-ghost" href="people.html">Meet the group</a>
+    </div>
+  </div>
+  <div class="hero-art" aria-hidden="true">
+    {% include "mitochondrion_hero.svg" %}
+  </div>
+</section>
+
+<section class="wrap funding-strip">
+  <p>The Hodgkinson lab is currently funded by the <strong>BBSRC</strong>, <strong>MRC</strong> and the <strong>Biomedical Research Centre</strong>.</p>
+</section>
+
+{% endblock %}

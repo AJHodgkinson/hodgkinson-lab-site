@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="wrap page-header">
+  <p class="eyebrow">Software</p>
+</section>
+
+<section class="wrap software-list">
+  {% for tool in software %}
+  <article class="software-entry">
+    <h2 class="software-name">{{ tool.name }}</h2>
+    <p class="software-desc">{{ tool.description }}</p>
+    <p class="software-method"><span class="label">Method:</span> {{ tool.method_citation }}</p>
+    <a class="button button-ghost button-small" href="{{ tool.link }}" target="_blank" rel="noopener">View on GitHub / usage guide &#8599;</a>
+  </article>
+  {% endfor %}
+</section>
+
+{% endblock %}

@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="wrap page-header">
+  <p class="eyebrow">Research</p>
+</section>
+
+<section class="wrap prose-block">
+  <p class="lede">
+    Mitochondria power nearly every process in the human body, from energy
+    production to cell death, so when their function breaks down the
+    consequences are felt across almost every organ system. Our lab combines
+    computational biology, population-scale genomics and molecular data to
+    understand how genetic variation shapes mitochondrial gene expression,
+    and how these processes, when disrupted, contribute to human disease.
+  </p>
+</section>
+
+<section class="wrap theme-grid">
+  <article class="theme-card">
+    <div class="theme-icon-wrap">{% include "icons/rna_processing.svg" %}</div>
+    <h2>RNA processing</h2>
+    <p>
+      The mitochondrial genome is transcribed as a long strand containing
+      multiple genes, which must then be precisely cut,
+      chemically modified and matured into individual RNAs. We study the
+      nuclear enzymes and post-transcriptional events, including RNA
+      cleavage, base modification and polyadenylation, that shape this
+      process, and how variation in these steps alters mitochondrial gene
+      output.
+    </p>
+  </article>
+
+  <article class="theme-card">
+    <div class="theme-icon-wrap">{% include "icons/crosstalk.svg" %}</div>
+    <h2>Nuclear&ndash;mitochondrial crosstalk</h2>
+    <p>
+      Although mitochondria carry their own genome, almost all of the
+      machinery that controls it is encoded in the nucleus. We map the
+      nuclear genetic variants that regulate mitochondrial RNA processing
+      across human tissues, revealing an extensive and often
+      tissue-specific dialogue between the two genomes.
+    </p>
+  </article>
+
+  <article class="theme-card">
+    <div class="theme-icon-wrap">{% include "icons/disease.svg" %}</div>
+    <h2>Disease risk</h2>
+    <p>
+      Because mitochondrial function underpins so many tissues, its
+      disruption is linked to a remarkably broad range of conditions, from
+      cancer and cardiometabolic disease to neurodegeneration. We use large
+      population cohorts, including UK Biobank, to test whether genetically
+      driven variation in mitochondrial RNA processing contributes causally
+      to disease risk.
+    </p>
+  </article>
+</section>
+
+{% endblock %}

@@ -1,0 +1,8 @@
+<svg class="theme-icon" viewBox="0 0 64 64" role="img" aria-label="RNA strand with a cleavage site and a hairpin loop">
+  <path class="ti-stroke" d="M4,36 C12,26 18,46 27,36" />
+  <path class="ti-stroke" d="M27,36 L27,24" />
+  <circle class="ti-stroke ti-fill-none" cx="27" cy="17" r="7" />
+  <path class="ti-stroke ti-accent" d="M31,29 L38,42" />
+  <path class="ti-stroke ti-accent" d="M38,29 L31,42" />
+  <path class="ti-stroke" d="M40,36 C48,26 54,46 60,36" />
+</svg>

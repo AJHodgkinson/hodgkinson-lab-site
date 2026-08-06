@@ -1,0 +1,59 @@
+<svg class="mito-hero" viewBox="0 0 440 320" role="img" aria-label="Stylised illustration of a mitochondrion, showing its folded inner membrane and clusters of mitochondrial DNA">
+  <defs>
+    <clipPath id="mitoClip">
+      <path d="M 70,160 C 70,95 125,50 200,46 C 280,42 360,60 395,115 C 412,145 412,178 393,207 C 355,262 275,278 198,270 C 122,262 70,225 70,160 Z" />
+    </clipPath>
+    <radialGradient id="matrixTint" cx="38%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="var(--teal-tint)" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="var(--teal-tint)" stop-opacity="0.35" />
+    </radialGradient>
+  </defs>
+
+  <!-- outer membrane, filled matrix -->
+  <path class="mito-outer" d="M 70,160 C 70,95 125,50 200,46 C 280,42 360,60 395,115 C 412,145 412,178 393,207 C 355,262 275,278 198,270 C 122,262 70,225 70,160 Z" fill="url(#matrixTint)" />
+
+  <!-- cristae (inner membrane folds), clipped to the organelle outline -->
+  <g class="mito-cristae" clip-path="url(#mitoClip)">
+    <path d="M 115,58 C 138,95 92,125 115,158 C 138,191 92,221 115,254" />
+    <path d="M 158,50 C 135,90 181,120 158,155 C 135,190 181,220 158,258" />
+    <path d="M 201,46 C 224,85 178,115 201,150 C 224,185 178,215 201,255" />
+    <path d="M 244,50 C 221,88 267,118 244,152 C 221,186 267,216 244,252" />
+    <path d="M 287,58 C 310,95 264,122 287,155 C 310,188 264,215 287,245" />
+    <path d="M 325,72 C 345,105 305,130 325,160 C 345,190 305,212 325,235" />
+  </g>
+
+  <!-- inner membrane outline (subtle inset echo of the outer envelope) -->
+  <path class="mito-inner" d="M 70,160 C 70,95 125,50 200,46 C 280,42 360,60 395,115 C 412,145 412,178 393,207 C 355,262 275,278 198,270 C 122,262 70,225 70,160 Z"
+    transform="translate(230 160) scale(0.93) translate(-230 -160)" />
+
+  <!-- outer membrane outline -->
+  <path class="mito-outline" d="M 70,160 C 70,95 125,50 200,46 C 280,42 360,60 395,115 C 412,145 412,178 393,207 C 355,262 275,278 198,270 C 122,262 70,225 70,160 Z" />
+
+  <!-- nucleoids: small clusters of mitochondrial DNA scattered in the matrix -->
+  <g class="mito-nucleoid">
+    <circle cx="133" cy="222" r="3.4" />
+    <circle cx="141" cy="215" r="3.4" />
+    <circle cx="130" cy="211" r="3.4" />
+  </g>
+  <g class="mito-nucleoid">
+    <circle cx="266" cy="92" r="3.4" />
+    <circle cx="275" cy="86" r="3.4" />
+    <circle cx="273" cy="98" r="3.4" />
+  </g>
+  <g class="mito-nucleoid">
+    <circle cx="178" cy="78" r="3.4" />
+    <circle cx="186" cy="72" r="3.4" />
+    <circle cx="188" cy="83" r="3.4" />
+  </g>
+
+  <!-- one nucleoid rendered as a mini circular genome, echoing the wordmark -->
+  <g class="mito-ring-nucleoid" transform="translate(238 202)">
+    <circle r="15" />
+    <circle cx="0" cy="-15" r="2" />
+    <circle cx="13" cy="-7.5" r="2" />
+    <circle cx="13" cy="7.5" r="2" />
+    <circle cx="0" cy="15" r="2" />
+    <circle cx="-13" cy="7.5" r="2" />
+    <circle cx="-13" cy="-7.5" r="2" />
+  </g>
+</svg>

@@ -1,0 +1,186 @@
+# Publications, newest first. Add a new block at the TOP of this list.
+# `link` / `link_label` are optional (e.g. a DOI or PDF).
+
+- year: 2026
+  citation: >
+    Centanini, E., Pain, O., Chinnery, P.F. & Hodgkinson, A. Nuclear genetic
+    modulation of tissue-specific mitochondrial RNA processing contributes to
+    common disease risk. Nature Communications 17: 5899.
+  link: "https://doi.org/10.1038/s41467-026-72649-5"
+  link_label: "DOI"
+
+- year: 2025
+  citation: >
+    Van De Streek, M., Ali, A., El-Sayed Moustafa, J., Glastonbury, C., Spector, T.,
+    Valdes, A., Staff, J., Morton, J., Hodgkinson, A., Bell, J. & Small, K. Quantification
+    of heavy metal exposure in a British population cohort links total mercury levels in
+    plasma with skin tissue-specific changes in mitochondrial-related gene expression.
+    Science of the Total Environment 963: 178427.
+
+- year: 2023
+  citation: >
+    Fairbrother-Browne, A., Garcia-Ruiz, S., Reynolds, R., Ryten, M. and Hodgkinson, A.
+    ensemblQueryR: fast, flexible and high-throughput querying of Ensembl LD API
+    endpoints in R. Gigabyte.
+  link: "https://doi.org/10.46471/gigabyte.91"
+  link_label: "DOI"
+
+- year: 2022
+  citation: >
+    Antona, G-C, Ali, A.T., Hodgkinson, A. Identification of human mitochondrial RNA
+    cleavage sites and candidate RNA processing factors. BMC Biology 20: 168.
+
+- year: 2022
+  citation: >
+    Saukkonen, A., Kilpinen, H., & Hodgkinson, A. Highly accurate quantification of
+    allelic gene expression for population and disease genetics. Genome Research.
+    gr.276296.121.
+
+- year: 2022
+  citation: >
+    Rodriguez-Algarra, F. et al (including Hodgkinson, A.). Genetic variation at mouse
+    and human ribosomal DNA influences associated epigenetic states. Genome Biology
+    23: 1-17.
+
+- year: 2021
+  citation: >
+    Fairbrother-Browne, A., Ali, A., Reynolds, R., Garcia-Ruiz, S., Zhang, D., Chen, Z.,
+    Ryten, M. and Hodgkinson, A. Mitochondrial-nuclear cross-talk in the human brain is
+    modulated by cell type and perturbed in neurodegenerative disease. Communications
+    Biology 4: 1262.
+
+- year: 2020
+  citation: >
+    Wilson B.C., Boehme L., Annibali A., Hodgkinson A., Carroll T.S., Oakey R.J.,
+    Seitan V.C. Intellectual disability-associated factor Zbtb11 cooperates with
+    NRF-2/GABP to control mitochondrial function. Nature Communications 11: 5469.
+
+- year: 2020
+  citation: >
+    Ali, A.T., Idaghdour, Y, Hodgkinson, A. Analysis of mitochondrial m1A/G RNA
+    modification reveals links to nuclear genetic variants and associated disease
+    processes. Communications Biology 3: 147.
+
+- year: 2019
+  citation: >
+    Ali, A.T., Boehme, L., Antona, G-C, Seitan, V.C., Small, K.S., Hodgkinson, A.
+    Nuclear Genetic Regulation of the Human Mitochondrial Transcriptome. eLife 8: e41927.
+
+- year: 2018
+  citation: >
+    Favé, M.-J. et al (including Hodgkinson, A.). Gene-by-environment interactions in
+    urban populations modulate risk phenotypes. Nature Communications 9: 827.
+
+- year: 2018
+  citation: >
+    Peischl, S. et al (including Hodgkinson, A.). Relaxed Selection During a Recent
+    Human Expansion. Genetics 2018: 763-777.
+
+- year: 2017
+  citation: >
+    Idaghdour, Y, and Hodgkinson, A. Integrated genomic analysis of mitochondrial RNA
+    processing in human cancers. Genome Medicine 9: 36.
+  link: "https://www.hodgkinsonlab.org/_files/ugd/99470f_de24954193774b7eaaa6c139e2d2a2a1.pdf"
+  link_label: "PDF"
+
+- year: 2016
+  citation: >
+    Hodgkinson, A. et al. A haplotype-based normalization technique for the analysis
+    and detection of allele specific expression. BMC Bioinformatics 17: 364.
+
+- year: 2016
+  citation: >
+    Merner et al (including Hodgkinson, A.). Gain-of-function missense variant in
+    SLC12A2, encoding the bumetanide-sensitive NKCC1 cotransporter, identified in
+    human schizophrenia. Journal of Psychiatric Research 77: 22-26.
+
+- year: 2016
+  citation: >
+    Leblond, C. et al (including Hodgkinson, A.). Replication study of MATR3 in
+    familial and sporadic amyotrophic lateral sclerosis. Neurobiology of Aging 37: 209.
+
+- year: 2015
+  citation: >
+    The 1000 Genomes Project Consortium (including Hodgkinson, A.). A global
+    reference for human genetic variation. Nature 526: 68-74.
+
+- year: 2015
+  citation: >
+    Hussin, J.G., Hodgkinson, A. et al. Recombination affects accumulation of
+    damaging and disease-associated mutations in human populations. Nature Genetics
+    47(4): 400-4.
+
+- year: 2014
+  citation: >
+    Hodgkinson, A.*, Idaghdour, Y.*, Gbeha, E., Grenier, J.C., Hip-Ki, E., Bruat, V.,
+    Goulet, J.P., de Malliard, T. and Awadalla, P. High-Resolution Genomic Analysis of
+    Human Mitochondrial RNA Sequence Variation. Science 344: 413-415.
+
+- year: 2014
+  citation: >
+    Kahle et al. (including Hodgkinson, A.). Genetically encoded impairment of
+    neuronal KCC2 cotransporter function in human idiopathic generalized epilepsy.
+    EMBO Rep 15: 766-74.
+
+- year: 2013
+  citation: >
+    Casals, F.*, Hodgkinson, A.*, et al. Whole-exome sequencing reveals a rapid
+    change in the frequency of rare functional variants in a founding population of
+    humans. PLoS Genetics 9: e1003815.
+
+- year: 2013
+  citation: >
+    Hodgkinson, A., Casals, F., Idaghdour, Y., Grenier, J.C., Hernandez, R. and
+    Awadalla, P. Selective constraint, background selection, and mutation
+    accumulation variability within and between human populations. BMC Genomics
+    14: 495-504.
+
+- year: 2013
+  citation: >
+    Samuels, M.A. et al (including Hodgkinson, A.). Exome sequencing identifies
+    mutations in the gene TTC7A in French-Canadian cases with hereditary multiple
+    intestinal atresia. J Med Genet 50: 324-329.
+
+- year: 2012
+  citation: >
+    Abecasis, G.R. et al (including Hodgkinson, A.). An integrated map of genetic
+    variation from 1,092 human genomes. Nature 491: 56-65.
+
+- year: 2011
+  citation: >
+    Hodgkinson, A., and A. Eyre-Walker. Variation in the Mutation Rate Across
+    Mammalian Genomes. Nature Reviews Genetics 12: 756-766.
+
+- year: 2011
+  citation: >
+    Hodgkinson, A., and A. Eyre-Walker. The Large-Scale Distribution of Somatic
+    Mutations in Cancer Genomes. Human Mutation 33: 136-143.
+
+- year: 2010
+  citation: >
+    Hodgkinson, A., and A. Eyre-Walker. The Genomic Distribution and Local Context
+    of Coincident SNPs in Human and Chimpanzee. Genome Biology and Evolution 2: 547-557.
+  link: "https://www.hodgkinsonlab.org/_files/ugd/99470f_b62427dc4091408d9280bc6f048c3227.pdf"
+  link_label: "PDF"
+
+- year: 2010
+  citation: >
+    Hodgkinson, A., and A. Eyre-Walker. Human triallelic sites: evidence for a new
+    mutational mechanism? Genetics 184: 233-241.
+  link: "https://www.hodgkinsonlab.org/_files/ugd/99470f_331ebc4a743d48639b2af0df26b37b40.pdf"
+  link_label: "PDF"
+
+- year: 2009
+  citation: >
+    Hodgkinson, A., E. Ladoukakis, and A. Eyre Walker. Cryptic Variation in the Human
+    Mutation Rate. PLoS Biology 7: 226-232.
+  link: "https://www.hodgkinsonlab.org/_files/ugd/99470f_f8f06abc249a45ac9fbbf96592c9b3fe.pdf"
+  link_label: "PDF"
+
+- year: 2006
+  citation: >
+    Eleftherianos, I., Marokhazi, J., Millichap, P., Hodgkinson, A., Sriboonlert, A.,
+    Ffrench-Constant, R., Reynolds, S. Prior infection of Manduca sexta with
+    non-pathogenic Escherichia coli elicits immunity to pathogenic Photorhabdus
+    luminescens: Roles of immune-related proteins shown by RNA interference. Insect
+    Biochem Mol Biol 36: 517-525.

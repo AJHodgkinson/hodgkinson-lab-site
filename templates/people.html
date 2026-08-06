@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="wrap page-header">
+  <p class="eyebrow">People</p>
+</section>
+
+<section class="wrap people-grid">
+  {% for person in people %}
+  <article class="person-card">
+    <div class="person-photo">
+      {% if person.photo %}
+      <img src="assets/images/people/{{ person.photo }}" alt="{{ person.name }}" loading="lazy">
+      {% else %}
+      <div class="person-photo-placeholder" aria-hidden="true">
+        <svg viewBox="0 0 40 40" width="32" height="32"><circle cx="20" cy="20" r="16" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+      </div>
+      {% endif %}
+    </div>
+    <h3 class="person-name">{{ person.name }}</h3>
+    <p class="person-role">{{ person.role }}</p>
+    <p class="person-bio">{{ person.bio }}</p>
+  </article>
+  {% endfor %}
+</section>
+
+<section class="wrap page-header alumni-header">
+  <h2>Lab alumni</h2>
+</section>
+
+<section class="wrap people-grid">
+  {% for person in alumni %}
+  <article class="person-card">
+    <div class="person-photo">
+      {% if person.photo %}
+      <img src="assets/images/people/{{ person.photo }}" alt="{{ person.name }}" loading="lazy">
+      {% else %}
+      <div class="person-photo-placeholder" aria-hidden="true">
+        <svg viewBox="0 0 40 40" width="32" height="32"><circle cx="20" cy="20" r="16" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+      </div>
+      {% endif %}
+    </div>
+    <h3 class="person-name">{{ person.name }}</h3>
+    <p class="person-role">{{ person.role }}</p>
+    <p class="person-bio">{{ person.bio }}</p>
+  </article>
+  {% endfor %}
+</section>
+
+{% endblock %}

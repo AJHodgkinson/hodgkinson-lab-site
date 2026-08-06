@@ -1,0 +1,41 @@
+# Current group members.
+# To add someone new, copy a block below (including the leading "- ") and fill it in.
+# `photo` should be a filename inside assets/images/people/ (leave blank for a placeholder).
+
+- name: "Alan Hodgkinson"
+  role: "Group Leader"
+  photo: "alan-hodgkinson.jpg"
+  bio: >
+    Alan did his PhD at the University of Sussex, with Professor Adam Eyre-Walker
+    studying variation in the mutation rate in mammalian genomes. Following this
+    he did a postdoc with Dr Philip Awadalla at Sainte Justine Hospital, University
+    of Montreal, Canada. Whilst in Montreal, Alan worked on the population genetics
+    of French-Canadians, as well as a large gene expression study within the
+    CARTaGENE project.
+
+
+- name: "Eleonora Centanini"
+  role: "PhD Student"
+  photo: "eleonora-centanini.jpg"
+  bio: >
+    Eleonora is on the Lido programme, being jointly supervised by Dr Mike Devine at the Crick. 
+    She is interested in mitochondrial transcriptional regimes and functional processes in the 
+    human brain, and how they might become dysregulated in neurological disorders.
+
+- name: "Mingzhe Li"
+  role: "PhD Student"
+  photo: ""
+  bio: >
+    More details to come soon.
+
+- name: "Rhys Hippolyte-Bell"
+  role: "PhD Student"
+  photo: ""
+  bio: >
+    More details to come soon.
+
+- name: "Lea Doerries"
+  role: "PhD Student"
+  photo: ""
+  bio: >
+    More details to come soon.

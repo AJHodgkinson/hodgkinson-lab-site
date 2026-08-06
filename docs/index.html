@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hodgkinson Lab</title>
+<meta name="description" content="We are a computational biology lab uncovering the genetic and molecular mechanisms that drive variation in the human mitochondrial transcriptome, and how these processes shape disease risk.">
+<link rel="canonical" href="https://www.hodgkinsonlab.org/index.html">
+<link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="wordmark" href="index.html">
+      <span class="wordmark-ring" aria-hidden="true">
+        <svg viewBox="0 0 40 40" width="28" height="28">
+          <circle cx="20" cy="20" r="16" fill="none" stroke="currentColor" stroke-width="2"/>
+          <circle cx="20" cy="4" r="2.4" fill="currentColor"/>
+          <circle cx="34.9" cy="14.6" r="2.4" fill="currentColor"/>
+          <circle cx="29.4" cy="32.5" r="2.4" fill="currentColor"/>
+          <circle cx="10.6" cy="32.5" r="2.4" fill="currentColor"/>
+          <circle cx="5.1" cy="14.6" r="2.4" fill="currentColor"/>
+        </svg>
+      </span>
+      Hodgkinson Lab
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" id="navToggle">
+      <span></span><span></span><span></span>
+      <span class="sr-only">Menu</span>
+    </button>
+    <nav class="site-nav" id="site-nav">
+      <a href="index.html" class="active" aria-current="page">Home</a>
+      <a href="research.html">Research</a>
+      <a href="people.html">People</a>
+      <a href="publications.html">Publications</a>
+      <a href="positions.html">Positions</a>
+      <a href="software.html">Software</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero wrap">
+  <div class="hero-text">
+    <h1>Mitochondrial genomics &amp; human disease</h1>
+    <p class="hero-lede">We are a computational biology lab uncovering the genetic and molecular mechanisms that drive variation in the human mitochondrial transcriptome, and how these processes shape disease risk.</p>
+    <div class="hero-actions">
+      <a class="button button-primary" href="research.html">Explore the research</a>
+      <a class="button button-ghost" href="people.html">Meet the group</a>
+    </div>
+  </div>
+  <div class="hero-art" aria-hidden="true">
+<svg class="mito-hero" viewBox="0 0 440 320" role="img" aria-label="Stylised illustration of a mitochondrion, showing its folded inner membrane and clusters of mitochondrial DNA">
+  <defs>
+    <clipPath id="mitoClip">
+      <path d="M 70,160 C 70,95 125,50 200,46 C 280,42 360,60 395,115 C 412,145 412,178 393,207 C 355,262 275,278 198,270 C 122,262 70,225 70,160 Z" />
+    </clipPath>
+    <radialGradient id="matrixTint" cx="38%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="var(--teal-tint)" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="var(--teal-tint)" stop-opacity="0.35" />
+    </radialGradient>
+  </defs>
+
+  <!-- outer membrane, filled matrix -->
+  <path class="mito-outer" d="M 70,160 C 70,95 125,50 200,46 C 280,42 360,60 395,115 C 412,145 412,178 393,207 C 355,262 275,278 198,270 C 122,262 70,225 70,160 Z" fill="url(#matrixTint)" />
+
+  <!-- cristae (inner membrane folds), clipped to the organelle outline -->
+  <g class="mito-cristae" clip-path="url(#mitoClip)">
+    <path d="M 115,58 C 138,95 92,125 115,158 C 138,191 92,221 115,254" />
+    <path d="M 158,50 C 135,90 181,120 158,155 C 135,190 181,220 158,258" />
+    <path d="M 201,46 C 224,85 178,115 201,150 C 224,185 178,215 201,255" />
+    <path d="M 244,50 C 221,88 267,118 244,152 C 221,186 267,216 244,252" />
+    <path d="M 287,58 C 310,95 264,122 287,155 C 310,188 264,215 287,245" />
+    <path d="M 325,72 C 345,105 305,130 325,160 C 345,190 305,212 325,235" />
+  </g>
+
+  <!-- inner membrane outline (subtle inset echo of the outer envelope) -->
+  <path class="mito-inner" d="M 70,160 C 70,95 125,50 200,46 C 280,42 360,60 395,115 C 412,145 412,178 393,207 C 355,262 275,278 198,270 C 122,262 70,225 70,160 Z"
+    transform="translate(230 160) scale(0.93) translate(-230 -160)" />
+
+  <!-- outer membrane outline -->
+  <path class="mito-outline" d="M 70,160 C 70,95 125,50 200,46 C 280,42 360,60 395,115 C 412,145 412,178 393,207 C 355,262 275,278 198,270 C 122,262 70,225 70,160 Z" />
+
+  <!-- nucleoids: small clusters of mitochondrial DNA scattered in the matrix -->
+  <g class="mito-nucleoid">
+    <circle cx="133" cy="222" r="3.4" />
+    <circle cx="141" cy="215" r="3.4" />
+    <circle cx="130" cy="211" r="3.4" />
+  </g>
+  <g class="mito-nucleoid">
+    <circle cx="266" cy="92" r="3.4" />
+    <circle cx="275" cy="86" r="3.4" />
+    <circle cx="273" cy="98" r="3.4" />
+  </g>
+  <g class="mito-nucleoid">
+    <circle cx="178" cy="78" r="3.4" />
+    <circle cx="186" cy="72" r="3.4" />
+    <circle cx="188" cy="83" r="3.4" />
+  </g>
+
+  <!-- one nucleoid rendered as a mini circular genome, echoing the wordmark -->
+  <g class="mito-ring-nucleoid" transform="translate(238 202)">
+    <circle r="15" />
+    <circle cx="0" cy="-15" r="2" />
+    <circle cx="13" cy="-7.5" r="2" />
+    <circle cx="13" cy="7.5" r="2" />
+    <circle cx="0" cy="15" r="2" />
+    <circle cx="-13" cy="7.5" r="2" />
+    <circle cx="-13" cy="-7.5" r="2" />
+  </g>
+</svg>  </div>
+</section>
+
+<section class="wrap funding-strip">
+  <p>The Hodgkinson lab is currently funded by the <strong>BBSRC</strong>, <strong>MRC</strong> and the <strong>Biomedical Research Centre</strong>.</p>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p class="footer-dept">Department of Medical &amp; Molecular Genetics, King&#39;s College London</p>
+    <p class="footer-copyright">&copy; 2026 Alan Hodgkinson</p>
+    <div class="footer-social">
+      <a class="footer-twitter" href="https://twitter.com/alanjhodgkinson" target="_blank" rel="noopener">Twitter / X &#8599;</a>
+      <a class="footer-linkedin" href="https://www.linkedin.com/in/alan-hodgkinson-40875022a/" target="_blank" rel="noopener">LinkedIn &#8599;</a>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/nav.js"></script>
+</body>
+</html>

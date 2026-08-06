@@ -1,0 +1,39 @@
+- name: "Personalised ASE Caller (PAC)"
+  description: >
+    Software for better alignment of RNA sequencing data for use in allele specific
+    expression analysis.
+  method_citation: >
+    Saukkonen, A., Kilpinen, H., & Hodgkinson, A. 2022. Highly accurate quantification
+    of allelic gene expression for population and disease genetics. Genome Research.
+    gr.276296.121.
+  link: "https://github.com/anna-saukkonen/PAC"
+
+- name: "MitoNuclearCOEXPlorer"
+  description: >
+    Analysis of gene expression interactions involving the mitochondrial and nuclear
+    genomes.
+  method_citation: >
+    Fairbrother-Browne, A., Ali, A., Reynolds, R., Garcia-Ruiz, S., Zhang, D., Chen, Z.,
+    Ryten, M. and Hodgkinson, A. 2021. Mitochondrial-nuclear cross-talk in the human
+    brain is modulated by cell type and perturbed in neurodegenerative disease.
+    Communications Biology 4: 1262.
+  link: "http://www.ainefairbrotherbrowne.shinyapps.io/MitoNuclearCOEXPlorer/weblinks"
+
+- name: "MitoRNACleave"
+  description: >
+    A method for detecting mitochondrial RNA cleavage sites from short read
+    sequencing data.
+  method_citation: >
+    Antona, G-C, Ali, A.T., Hodgkinson, A. 2022. Identification of human mitochondrial
+    RNA cleavage sites and candidate RNA processing factors. BMC Biology 20: 168.
+  link: "https://github.com/gcarbajosa/Mitochondrial_RNA_Cleavage"
+
+- name: "ASE Detector"
+  description: >
+    Software for better alignment of RNA sequencing data for use in allele specific
+    expression analysis.
+  method_citation: >
+    Hodgkinson, A., Grenier, J. C., Gbeha, E., & Awadalla, P. 2016. A haplotype-based
+    normalization technique for the analysis and detection of allele specific
+    expression. BMC Bioinformatics 17: 364.
+  link: "https://github.com/AJHodgkinson/ASE"

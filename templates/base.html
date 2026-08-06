@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page_title %}{{ page_title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+<meta name="description" content="{{ meta_description or site.tagline }}">
+<link rel="canonical" href="{{ site.base_url }}/{{ page_file }}">
+<link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="wordmark" href="index.html">
+      <span class="wordmark-ring" aria-hidden="true">
+        <svg viewBox="0 0 40 40" width="28" height="28">
+          <circle cx="20" cy="20" r="16" fill="none" stroke="currentColor" stroke-width="2"/>
+          <circle cx="20" cy="4" r="2.4" fill="currentColor"/>
+          <circle cx="34.9" cy="14.6" r="2.4" fill="currentColor"/>
+          <circle cx="29.4" cy="32.5" r="2.4" fill="currentColor"/>
+          <circle cx="10.6" cy="32.5" r="2.4" fill="currentColor"/>
+          <circle cx="5.1" cy="14.6" r="2.4" fill="currentColor"/>
+        </svg>
+      </span>
+      Hodgkinson Lab
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" id="navToggle">
+      <span></span><span></span><span></span>
+      <span class="sr-only">Menu</span>
+    </button>
+    <nav class="site-nav" id="site-nav">
+      {% for item in site.nav %}
+      <a href="{{ item.file }}"{% if item.file == page_file %} class="active" aria-current="page"{% endif %}>{{ item.label }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+{% block content %}{% endblock %}
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p class="footer-dept">{{ site.department }}</p>
+    <p class="footer-copyright">&copy; {{ current_year }} {{ site.copyright_name }}</p>
+    <div class="footer-social">
+      <a class="footer-twitter" href="{{ site.twitter_url }}" target="_blank" rel="noopener">Twitter / X &#8599;</a>
+      <a class="footer-linkedin" href="{{ site.linkedin_url }}" target="_blank" rel="noopener">LinkedIn &#8599;</a>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/nav.js"></script>
+</body>
+</html>

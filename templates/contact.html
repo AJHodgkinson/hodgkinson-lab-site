@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="wrap page-header">
+  <p class="eyebrow">Contact</p>
+</section>
+
+<section class="wrap contact-block">
+  <address>
+    Department of Medical &amp; Molecular Genetics<br>
+    King&rsquo;s College London<br>
+    8th Floor Tower Wing, Guy&rsquo;s Hospital<br>
+    Great Maze Pond<br>
+    London SE1 9RT
+  </address>
+
+  <dl class="contact-details">
+    <div>
+      <dt>Email</dt>
+      <dd><a href="mailto:alan.hodgkinson@kcl.ac.uk">alan.hodgkinson@kcl.ac.uk</a></dd>
+    </div>
+    <div>
+      <dt>Phone</dt>
+      <dd><a href="tel:+442078488120">+44 (0) 20 7848 8120</a></dd>
+    </div>
+  </dl>
+</section>
+
+<section class="wrap contact-map-wrap">
+  <div class="contact-map">
+    <iframe
+      src="https://maps.google.com/maps?q=8th+Floor+Tower+Wing%2C+Guy%27s+Hospital%2C+Great+Maze+Pond%2C+London+SE1+9RT&t=&z=16&ie=UTF8&iwloc=&output=embed"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      title="Map showing the Department of Medical & Molecular Genetics, Guy's Hospital">
+    </iframe>
+  </div>
+</section>
+
+{% endblock %}

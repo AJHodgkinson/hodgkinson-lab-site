@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="wrap page-header">
+  <p class="eyebrow">Publications</p>
+</section>
+
+<section class="wrap pub-list">
+  {% for pub in publications %}
+  <article class="pub-entry">
+    <span class="pub-year">{{ pub.year }}</span>
+    <span class="pub-citation">
+      {{ pub.citation }}
+      {% if pub.link %}<a class="pub-link" href="{{ pub.link }}" target="_blank" rel="noopener">{{ pub.link_label }} &#8599;</a>{% endif %}
+    </span>
+  </article>
+  {% endfor %}
+</section>
+
+{% endblock %}
