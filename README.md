@@ -43,6 +43,15 @@ python3 build.py
 Then open `docs/index.html` in a browser. Re-run `python3 build.py` any time
 you edit a file in `data/` to regenerate the site.
 
+##Then put on github:
+cd hodgkinson-lab-site - run: git status — this lists which files you've edited, useful as a sanity check before committing.
+git add .
+git commit -m "Add new publication" #(write a short description of what you changed instead of that exact text).
+git push
+
+In your browser, go to the repo's Actions tab. A new run should appear within a few seconds; 
+once it shows a green checkmark (usually under a minute), refresh www.hodgkinsonlab.org and your change will be live.
+
 ## Deploying (free, via GitHub Pages)
 
 **1. Create a GitHub account** if you don't have one (free) at github.com.
@@ -59,7 +68,7 @@ git init
 git add .
 git commit -m "Initial site"
 git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/hodgkinson-lab-site.git
+git remote add origin https://github.com/AJHodgkinson/hodgkinson-lab-site.git
 git push -u origin main
 ```
 

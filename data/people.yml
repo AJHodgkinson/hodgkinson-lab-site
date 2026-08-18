@@ -24,15 +24,21 @@
 
 - name: "Mingzhe Li"
   role: "PhD Student"
-  photo: ""
+  photo: "mingzhe-li.jpg"
   bio: >
-    More details to come soon.
+    Mingzhe is a PhD candidate supervised by Dr Hodgkinson and Dr Fitzpatrick, investigating 
+    mitochondrial processes and their role in cancer. His research integrates large-scale genomic 
+    and transcriptomic data, developing computational pipelines and predictive models of 
+    gene expression and applying integrative bioinformatics approaches to investigate 
+    their relationships with cancer survival and tumour outcomes.
 
-- name: "Rhys Hippolyte-Bell"
+- name: "Rhys Hippolyte-Belle"
   role: "PhD Student"
-  photo: ""
+  photo: "rhys-hippolyte-belle.jpg"
   bio: >
-    More details to come soon.
+    Rhys is on the MRC DTP programme, jointly supervised by Dr Alan Hodgkinson and Prof 
+    Kerrin Small. He is interested in the genetic and molecular processes underlying 
+    the risk and progression of metabolic disease across the life course.
 
 - name: "Lea Doerries"
   role: "PhD Student"
