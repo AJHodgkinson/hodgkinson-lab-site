@@ -3,6 +3,15 @@
 
 - year: 2026
   citation: >
+    Kaikini, A., Shi, A., Francis, P., Swerdlow, R., Troakes, C., Kennedy, J., Hodgkinson, A. & Malik, A. 
+    Why diabetes matters in dementia studies: Failure to account for diabetes status masks regional 
+    mitochondrial DNA copy number changes in human hippocampus, amygdala, and cerebellum in 
+    Alzheimer's disease. Alzheimer's & Dementia 22(10):e71870.
+  link: "https://doi.org/10.1002/alz.71870"
+  link_label: "DOI"
+
+- year: 2026
+  citation: >
     Centanini, E., Pain, O., Chinnery, P.F. & Hodgkinson, A. Nuclear genetic
     modulation of tissue-specific mitochondrial RNA processing contributes to
     common disease risk. Nature Communications 17: 5899.
@@ -22,6 +31,12 @@
     of heavy metal exposure in a British population cohort links total mercury levels in
     plasma with skin tissue-specific changes in mitochondrial-related gene expression.
     Science of the Total Environment 963: 178427.
+    
+- year: 2024
+  citation: >
+    Shi, A., Kaikini, A., Hodgkinson, A. & Malik, A.N. Diverse Patterns and Impact of 
+    Mitochondrial DNA Alteration in Parietal Cortex of Diabetic and Non‐diabetic Alzheimer’s 
+    Disease. Alzheimer's & Dementia 20, e089513
 
 - year: 2023
   citation: >
@@ -30,6 +45,12 @@
     endpoints in R. Gigabyte.
   link: "https://doi.org/10.46471/gigabyte.91"
   link_label: "DOI"
+  
+- year: 2023
+  citation: >
+    Vignola, M.L., Montibus, B., Scagliotti, V., Oakey, R., Hodgkinson, A. & Charalambous, M.
+    Mapping regulatory elements at the DLK1 locus involved in the pathogenesis of human fetal 
+    growth restriction. Placenta 140, e75-e76.
 
 - year: 2022
   citation: >
